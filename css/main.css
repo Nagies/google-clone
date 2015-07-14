@@ -1,0 +1,158 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+.page-wrap {
+	width: 1433px;
+	margin: 0 auto;
+}
+
+.nav {
+	text-align: right;
+	margin-right: 2.2em;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 8px;
+	font-size: 1em;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: inherit;
+}
+.nav li a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+
+.nav li img {
+	position: absolute;
+	margin: -0.7em;
+}
+.nav li img:hover {
+	color: black;
+}
+
+.nav li:nth-child(3){
+	margin-right: 28px;
+	margin-left: 10px;
+}
+
+.sign-in {
+	background-color: #4285f4;
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	padding: 9px 16px;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+}
+.sign-in:hover{
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+div img {
+	margin: 12% auto;
+	display: block;
+}
+
+#form-wrap{
+	width: 43%;
+	height: 30px;
+	margin: -8.7em auto;
+	border: 1px solid transparent;
+}
+
+.input{
+	background-color: #fff;
+	background-image: url("../img/voice-control.gif");
+	background-size: 15px 20px;
+	background-repeat: no-repeat;
+	background-position: 98%;
+	width: 100%;
+	height: 37px;
+}
+.input:hover{
+	border: 1px solid #555;
+}
+
+.buttons {
+	margin: 3% 10.5em;
+	display: inline-block;
+}
+
+.under-search:nth-child(2){
+	margin-left: 13px;
+}
+
+.under-search {
+	background-color: #f1f1f1;
+	border-radius: 2px;
+	border: 1px solid #d0d0d0;
+	color: rgba(74, 74, 74, 0.92);
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 10px;
+}
+.under-search:hover{
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+.footer{
+    position: fixed;
+    height: 50px;
+    background-color: #efefef;
+    border-top: 1px solid #e4e4e4;
+    bottom:0px;
+    left:-20px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+
+footer ul {
+	display: inline-block;
+}
+
+.ul-left li {
+	display: inline-block;
+	list-style: none;
+	color: #666;
+	padding: 13px 15px;
+	font-size: 17px;
+}
+.ul-left li:hover{
+	text-decoration: underline;
+	opacity: .85;
+}
+
+.ul-left {
+	margin: 1px;
+}
+
+.ul-right li {
+	display: inline-block;
+	list-style: none;
+	color: #666;
+	padding: 0px 15px;
+	font-size: 17px;
+}
+.ul-right li:hover{
+	text-decoration: underline;
+	opacity: .85;
+}
+
+.ul-right {
+	float: right;
+	margin-right: 22px;
+}
+
+
